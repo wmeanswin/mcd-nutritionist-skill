@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "source": "sample:公开营养信息整理（待校准）",
+    "updated": "2026-10-12",
+    "calibrated": false,
+    "warning": "本文件为无 MCP 时的兜底参考库，数值可能与麦当劳官方实时数据存在偏差。接入 MCP 后请用 scripts/sync_db.py 覆盖为 list-nutrition-foods 的实时数据，且对外输出时必须说明数据版本。"
+  },
+  "foods": [
+    {"name": "巨无霸", "category": "汉堡", "serving": "1个", "energy_kcal": 550, "protein_g": 25, "fat_g": 30, "carb_g": 45, "sodium_mg": 900, "calcium_mg": 150},
+    {"name": "麦香鸡", "category": "汉堡", "serving": "1个", "energy_kcal": 400, "protein_g": 16, "fat_g": 20, "carb_g": 40, "sodium_mg": 750, "calcium_mg": 120},
+    {"name": "麦香鱼", "category": "汉堡", "serving": "1个", "energy_kcal": 340, "protein_g": 15, "fat_g": 14, "carb_g": 40, "sodium_mg": 600, "calcium_mg": 120},
+    {"name": "原味板烧鸡腿堡", "category": "汉堡", "serving": "1个", "energy_kcal": 404, "protein_g": 26, "fat_g": 18, "carb_g": 33, "sodium_mg": 800, "calcium_mg": 100},
+    {"name": "麦辣鸡腿堡", "category": "汉堡", "serving": "1个", "energy_kcal": 570, "protein_g": 25, "fat_g": 33, "carb_g": 48, "sodium_mg": 1000, "calcium_mg": 120},
+    {"name": "双层吉士汉堡", "category": "汉堡", "serving": "1个", "energy_kcal": 440, "protein_g": 25, "fat_g": 23, "carb_g": 33, "sodium_mg": 1000, "calcium_mg": 250},
+    {"name": "吉士汉堡", "category": "汉堡", "serving": "1个", "energy_kcal": 300, "protein_g": 15, "fat_g": 13, "carb_g": 32, "sodium_mg": 700, "calcium_mg": 200},
+    {"name": "汉堡包", "category": "汉堡", "serving": "1个", "energy_kcal": 250, "protein_g": 12, "fat_g": 9, "carb_g": 30, "sodium_mg": 500, "calcium_mg": 100},
+    {"name": "安格斯厚牛堡", "category": "汉堡", "serving": "1个", "energy_kcal": 700, "protein_g": 35, "fat_g": 40, "carb_g": 45, "sodium_mg": 1100, "calcium_mg": 160},
+
+    {"name": "那么大鸡排", "category": "小食", "serving": "1块", "energy_kcal": 380, "protein_g": 24, "fat_g": 23, "carb_g": 22, "sodium_mg": 780, "calcium_mg": 40},
+    {"name": "麦辣鸡翅(2块)", "category": "小食", "serving": "2块", "energy_kcal": 250, "protein_g": 15, "fat_g": 17, "carb_g": 10, "sodium_mg": 600, "calcium_mg": 20},
+    {"name": "麦乐鸡(5块)", "category": "小食", "serving": "5块", "energy_kcal": 230, "protein_g": 12, "fat_g": 15, "carb_g": 12, "sodium_mg": 500, "calcium_mg": 20},
+    {"name": "麦乐鸡(10块)", "category": "小食", "serving": "10块", "energy_kcal": 460, "protein_g": 24, "fat_g": 30, "carb_g": 24, "sodium_mg": 1000, "calcium_mg": 40},
+    {"name": "薯条(大)", "category": "小食", "serving": "1份", "energy_kcal": 500, "protein_g": 6, "fat_g": 25, "carb_g": 63, "sodium_mg": 350, "calcium_mg": 20},
+    {"name": "薯条(中)", "category": "小食", "serving": "1份", "energy_kcal": 350, "protein_g": 4.5, "fat_g": 17, "carb_g": 44, "sodium_mg": 250, "calcium_mg": 15},
+    {"name": "薯条(小)", "category": "小食", "serving": "1份", "energy_kcal": 230, "protein_g": 3, "fat_g": 11, "carb_g": 30, "sodium_mg": 160, "calcium_mg": 10},
+    {"name": "玉米杯", "category": "小食", "serving": "1杯", "energy_kcal": 70, "protein_g": 2, "fat_g": 0.5, "carb_g": 15, "sodium_mg": 5, "calcium_mg": 10},
+    {"name": "美味鲜蔬杯", "category": "小食", "serving": "1杯", "energy_kcal": 20, "protein_g": 1, "fat_g": 0, "carb_g": 4, "sodium_mg": 30, "calcium_mg": 20},
+
+    {"name": "可口可乐(中)", "category": "饮料", "serving": "1杯", "energy_kcal": 160, "protein_g": 0, "fat_g": 0, "carb_g": 40, "sodium_mg": 15, "calcium_mg": 0},
+    {"name": "零度可乐(中)", "category": "饮料", "serving": "1杯", "energy_kcal": 0, "protein_g": 0, "fat_g": 0, "carb_g": 0, "sodium_mg": 20, "calcium_mg": 0},
+    {"name": "雪碧(中)", "category": "饮料", "serving": "1杯", "energy_kcal": 150, "protein_g": 0, "fat_g": 0, "carb_g": 37, "sodium_mg": 15, "calcium_mg": 0},
+    {"name": "鲜橙汁(小)", "category": "饮料", "serving": "1杯", "energy_kcal": 110, "protein_g": 1, "fat_g": 0, "carb_g": 25, "sodium_mg": 10, "calcium_mg": 20},
+    {"name": "美式咖啡(中)", "category": "饮料", "serving": "1杯", "energy_kcal": 10, "protein_g": 0.3, "fat_g": 0, "carb_g": 1.5, "sodium_mg": 10, "calcium_mg": 20},
+    {"name": "拿铁(中)", "category": "饮料", "serving": "1杯", "energy_kcal": 120, "protein_g": 7, "fat_g": 6, "carb_g": 9, "sodium_mg": 90, "calcium_mg": 200},
+    {"name": "牛奶(小)", "category": "饮料", "serving": "1盒", "energy_kcal": 130, "protein_g": 8, "fat_g": 7, "carb_g": 10, "sodium_mg": 120, "calcium_mg": 250},
+    {"name": "0度泡泡啤", "category": "饮料", "serving": "1杯", "energy_kcal": 0, "protein_g": 0, "fat_g": 0, "carb_g": 0, "sodium_mg": 10, "calcium_mg": 0},
+
+    {"name": "甜筒", "category": "甜品", "serving": "1个", "energy_kcal": 130, "protein_g": 3, "fat_g": 4, "carb_g": 22, "sodium_mg": 60, "calcium_mg": 110},
+    {"name": "麦旋风(奥利奥)", "category": "甜品", "serving": "1杯", "energy_kcal": 300, "protein_g": 6, "fat_g": 12, "carb_g": 42, "sodium_mg": 150, "calcium_mg": 200},
+    {"name": "新地(巧克力)", "category": "甜品", "serving": "1杯", "energy_kcal": 200, "protein_g": 4, "fat_g": 6, "carb_g": 33, "sodium_mg": 90, "calcium_mg": 140},
+    {"name": "苹果派", "category": "甜品", "serving": "1个", "energy_kcal": 250, "protein_g": 3, "fat_g": 13, "carb_g": 30, "sodium_mg": 200, "calcium_mg": 10},
+    {"name": "香芋派", "category": "甜品", "serving": "1个", "energy_kcal": 240, "protein_g": 3, "fat_g": 12, "carb_g": 31, "sodium_mg": 180, "calcium_mg": 10},
+
+    {"name": "猪柳蛋麦满分", "category": "早餐", "serving": "1个", "energy_kcal": 380, "protein_g": 20, "fat_g": 20, "carb_g": 30, "sodium_mg": 800, "calcium_mg": 150},
+    {"name": "吉士蛋麦满分", "category": "早餐", "serving": "1个", "energy_kcal": 300, "protein_g": 16, "fat_g": 13, "carb_g": 32, "sodium_mg": 700, "calcium_mg": 250},
+    {"name": "热香饼(2块)", "category": "早餐", "serving": "2块", "energy_kcal": 340, "protein_g": 8, "fat_g": 9, "carb_g": 56, "sodium_mg": 500, "calcium_mg": 100},
+    {"name": "早餐薯饼", "category": "早餐", "serving": "1块", "energy_kcal": 150, "protein_g": 2, "fat_g": 9, "carb_g": 16, "sodium_mg": 300, "calcium_mg": 10}
+  ]
+}
