@@ -29,7 +29,7 @@
   巨无霸,null,2146,513,27,26,42,961,171
 ```
 
-**解析**：`scripts/sync_db.py` 中的 `parse_mcp_text()` 提取 `data` 字符串 → 用 `[N]{字段列表}:` 解析表头 → 逐行映射为结构化记录 → 再经 `normalize_food()` 统一字段名与单位（kJ 自动换算为 kcal）。当前返回 160 条，去重后落库 154 条。
+**解析**：`scripts/sync_db.py` 中的 `parse_mcp_text()` 提取 `data` 字符串 → 用 `[N]{字段列表}:` 解析表头 → 逐行映射为结构化记录 → 再经 `normalize_food()` 统一字段名与单位（kJ 自动换算为 kcal）。当前返回 160 条，去重后落库 158 条（条数随官方菜单更新而变化）。
 
 ### 辅助（可选，用户要求下单时才调用）
 
@@ -54,7 +54,7 @@ MCP: list-nutrition-foods ──► 原始文本表格
 sync_db.py：解析 + 字段标准化 + 单位换算 + 分类推断
         │
         ▼
-nutrition-db.json（~/.workbuddy/mcd-nutritionist/，154 条）
+nutrition-db.json（~/.workbuddy/mcd-nutritionist/，158 条）
         │
         ▼
 mcd_nutrition.py：profile → plan/calc/rank

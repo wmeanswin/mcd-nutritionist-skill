@@ -57,11 +57,11 @@ python ~/.workbuddy/skills/mcd-nutritionist/scripts/sync_db.py --from-mcp
 输出示例：
 
 ```
-✅ 已写入 154 条餐品营养数据 → ~/.workbuddy/mcd-nutritionist/nutrition-db.json
-分类分布：饮料 69、小食 23、甜品 21、早餐 19、汉堡 16、套餐 6
+✅ 已写入 158 条餐品营养数据 → ~/.workbuddy/mcd-nutritionist/nutrition-db.json
+分类分布：饮料 73、小食 23、甜品 21、早餐 19、汉堡 16、套餐 6
 ```
 
-数据库默认放在 `~/.workbuddy/mcd-nutritionist/nutrition-db.json`，不进入项目目录，避免官方数据与凭证入库。
+条数随麦当劳官方菜单更新而变化，以上为开发完成时（2026-10-13）的实际同步结果。数据库默认放在 `~/.workbuddy/mcd-nutritionist/nutrition-db.json`，不进入项目目录，避免官方数据与凭证入库。
 
 ## 使用示例
 
